@@ -1,0 +1,85 @@
+/* Cute Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    background-color: #f9f5ff;
+    font-family: 'Quicksand', sans-serif;
+    color: #5e4b56;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #a64ac9;
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #fff0f6;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d63384;
+    font-weight: 600;
+}
+
+.intro, .list-section, .anchor-section, .extras {
+    background-color: white;
+    padding: 25px;
+    margin: 25px auto;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* LIST FIXES */
+.list-section ol {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+}
+
+.list-section ol > li {
+    margin-bottom: 15px;
+}
+
+.list-section ul {
+    list-style-type: circle;
+    margin: 8px 0 0 20px;
+    padding-left: 0;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Back to top anchor */
+a[href="#top"] {
+    display: inline-block;
+    margin-top: 15px;
+    color: #e5989b;
+    font-weight: bold;
+}
+
+
+
